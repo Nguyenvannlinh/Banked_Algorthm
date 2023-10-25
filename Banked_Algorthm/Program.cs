@@ -6,9 +6,6 @@ namespace banked_alogorthm
 {
     class program
     {
-        public int m, n;
-        public int[,] allo, max, need, request;
-        public int[] avil;
         static int[,] Need(int n, int m, int[,] y, int[,] z)
         {
             int[,] x = new int[n, m];
